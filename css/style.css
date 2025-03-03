@@ -65,3 +65,37 @@ img {
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.projects {
+    align-items: center;
+    display: inline-block;
+    margin: 0 auto;
+    padding: 0 15px;
+    justify-items: center;
+}
+
+.projects h2 {
+    text-align: left;
+    margin: 20px 0;
+    padding: 0 15px;
+}
+
+.projects h1 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+.project img {
+    width: 480px;
+    height: auto;
+    border:#ffffff solid 5px;
+    border-radius: 10px;
+    margin: 0 auto;
+    display: block;
+}
+
+.project {
+    background-color: rgb(169, 196, 255);
+    border:#0004ff solid 5px;
+    border-radius: 10px;
+}

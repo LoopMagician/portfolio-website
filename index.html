@@ -9,7 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="shortcut icon" href="images/NS-icon.ico" type="images/x-icon"
+    <link rel="shortcut icon" href="images/NS-icon.ico" type="images/x-icon">
 </head>
 
 <body>
@@ -45,59 +45,79 @@
         </div>
     </nav>
 
-    <h1>The Portfolio of Noah Seilo</h1>
+    <div style="display: flex; justify-content: center; align-items: center;">
+        <h1>The Portfolio of Noah Seilo</h1>
+    </div>
 
-    <h2>Projects</h2>
+    <div class="projects">
 
-    <ul>
-        <li><a href="https://loopmagician.itch.io/the-legend-of-zelda-unity-rendition">The Legend of Zelda (Unity Remaster)</a></li>
-        <p>
-            This is my project partner's and I's rendition of The Legend of Zelda. The game was made 
-            with Unity 6.
-        </p>
-        <p>
-            During development, I took part in early game mechanics, such as the camera and player
-            movement, the Old Man Room, the 2D bow room, collectibles, doors, pushable objects, 
-            room set up, and the HUD. During the later stages of development, I came up with and 
-            implemented the flying Umbrella Mechanic as well as the Custom Level and everything
-            that had to do with it. 
+        <h1 style="padding: 15px;">Projects</h1>
 
-            I thouroughly enjoyed developing the project and I am proud of the work that I did on it.
-            Both my parter and I spent many hours working on it, and I can say that I feel good about 
-            the final product. I hope you enjoy it as much as we did making it.
-        </p>
-        <li><a href="https://loopmagician.itch.io/asteroid-defense">Asteroid Defense</a></li>
-        <p>
-            This is another project that I created in Unity 6. It is the first game that I have created
-            on my own. 
-        </p>
-        <p>
-            Here is a full description of the games development process:
-        </p>
-        <p>
-            This was a two week sprint. During the sprint, I created tasks for myself to implement into the 
-            game. In particular, I had to create the environment which included the city game object. I also
-            had to create the asteroid prefeb and its movement script which also controlled destroying the
-            object on user click. This script was linked to another script that would spawn the asteroids at 
-            random intervals and increase the difficulty by increasing the speed and spawn rate. After This
-            was complete, I was faced with a design decision for the flow of gameplay. The city had to have
-            a health status, but an object of that type wouldn't suit well with something as simple as a health
-            bar. Instead, I added a crumbling effect that lowered the city off the screen during each hit.
-            After the last hit, the city will continue to crumble until it is completely off the screen, in 
-            which the game will end. I also created a score, start menu, and game over menu ui to accompany
-            the game. Once this was done, the core of my game had been developed. At this point it was time
-            to add the 'juice' to the game. This included things such as explosion effects, sound effects,
-            background music, and a crosshair for the player. This is the jist of what the game currently is.
-            I hope you enjoy it.
-        </p>
-    </ul>
-</body>
+        <div class="security">
+            <h2>Security</h2>
+        </div>
 
-</html>
+        <div class="web-dev">
+            <h2>Web Development</h2>
+        </div>
+        
+        <div class="games">
+            <h2>Games</h2>
+            <div class="project" style="padding: 15px;">
+                <!-- <img src="images/Legend-of-Zelda-1.png" alt="Legend of Zelda Screenshot"> -->
+                <p style="justify-self: center;">
+                    <a href="https://loopmagician.itch.io/the-legend-of-zelda-unity-rendition">The Legend of Zelda (Unity Remaster) <b>CLICK TO PLAY</b></a>
+                </p>
+                <p>
+                    This is my project partner's and I's rendition of The Legend of Zelda. The game was made 
+                    with Unity 6.
+                </p>
+                <p>
+                    During development, I took part in early game mechanics, such as the camera and player
+                    movement, the Old Man Room, the 2D bow room, collectibles, doors, pushable objects, 
+                    room set up, and the HUD. During the later stages of development, I came up with and 
+                    implemented the flying Umbrella Mechanic as well as the Custom Level and everything
+                    that had to do with it. 
 
-</html>
+                    I thouroughly enjoyed developing the project and I am proud of the work that I did on it.
+                    Both my parter and I spent many hours working on it, and I can say that I feel good about 
+                    the final product. I hope you enjoy it as much as we did making it.
+                </p>
+            </div>
 
-    <script src="js/Noah-website-build.js"></script>
+            <div class="project" style="padding: 15px;">
+                <img src="images/asteroid_defense_1.png" alt="Asteroid Defense Screenshot">
+                <p style="justify-self: center;">
+                    <a href="https://loopmagician.itch.io/asteroid-defense">Asteroid Defense <b>CLICK TO PLAY</b></a>
+                </p>
+                <p>
+                    This is another project that I created in Unity 6. It is the first game that I have created
+                    on my own. 
+                </p>
+                <p>
+                    Here is a full description of the games development process:
+                </p>
+                <p>
+                    This was a two week sprint. During the sprint, I created tasks for myself to implement into the 
+                    game. In particular, I had to create the environment which included the city game object. I also
+                    had to create the asteroid prefeb and its movement script which also controlled destroying the
+                    object on user click. This script was linked to another script that would spawn the asteroids at 
+                    random intervals and increase the difficulty by increasing the speed and spawn rate. After This
+                    was complete, I was faced with a design decision for the flow of gameplay. The city had to have
+                    a health status, but an object of that type wouldn't suit well with something as simple as a health
+                    bar. Instead, I added a crumbling effect that lowered the city off the screen during each hit.
+                    After the last hit, the city will continue to crumble until it is completely off the screen, in 
+                    which the game will end. I also created a score, start menu, and game over menu ui to accompany
+                    the game. Once this was done, the core of my game had been developed. At this point it was time
+                    to add the 'juice' to the game. This included things such as explosion effects, sound effects,
+                    background music, and a crosshair for the player. This is the jist of what the game currently is.
+                    I hope you enjoy it.
+                </p>
+            </div>
+
+        </div>
+
+    </div>
 </body>
 
 </html>
