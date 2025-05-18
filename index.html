@@ -9,43 +9,52 @@
     <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/home.css">
     <link rel="shortcut icon" href="images/NS-icon.ico" type="images/x-icon">
 </head>
 
 <body>
     <nav class="navbar">
-        <div class="container">
-            <div class="logo">
-                <a href="index.html">
-                    <img src="images/NS-logo-cool.png" alt="logo" width="100px" height="100px">
-                </a>
-            </div>
+        <ul class="nav-menu">
+          <li><a href="index.html" class="home-link">Home</a></li>
+          <li><a href="profxp.html" class="exp-link">Professional Experience</a></li>
+          <li><a href="education.html" class="edu-link">Education</a></li>
+          <li><a href="games.html" class = "games-link">Games</a></li>
+        </ul>
+    </nav>      
 
-            <!-- <div class="main-menu"> These should be quick links to places on the same page
-                <ul>
-                    <li>
-                        <a href="index.html">Home</a>
-                    </li>
-                    <li>
-                        <a href="#">About me</a>
-                    </li>
-                    <li>
-                        <a href="#">something else</a>
-                    </li>                    
-                    <li>
-                        <a href="#">something else</a>
-                    </li>
-                    <li>
-                        <a class="btn btn-light" href="#">
-                            <i class="fas fa-user"></i> Log In
-                        </a>
-                    </li>
-                </ul>
-            </div> -->
-        </div>
-    </nav>
+    <div class="header">
+        <h1 class="name" id="name-title">
+            <span>N</span><span>o</span><span>a</span><span>h</span> 
+            <span>&nbsp;</span>
+            <span>R</span><span>a</span><span>y</span><span>m</span><span>o</span><span>n</span><span>d</span>
+            <span>&nbsp;</span>
+            <span>S</span><span>e</span><span>i</span><span>l</span><span>o</span>
+        </h1>          
+    </div>
 
-    <div style="display: flex; justify-content: center; align-items: center;">
+    <div class="headshot">
+        <img src="images/headshot.jpg" alt="Headshot of Noah Seilo">
+    </div>
+
+    <div class="about-me">
+        <h2>About Me</h2>
+        <p>
+            Firstly, if you are reading this, I would like to thank you for taking the time to learn more about me.
+            I recently graduated from the University of Michigan with a Bachelor's of Science in Computer Science.
+            I found a passion in the world of coding my sophomore year of college after taking an introductory course
+            in C++ programming, and from there I began a journey of discovering all the nooks and crannies coding has to offer.
+            During my tenure at the University of Michigan, I have taken a variety of courses on different topics, including 
+            cybersecurity, machine learning, web development, and game development. I have also had the opportunity to work on a variety of projects
+            in these fields. I have a passion for learning and I am always looking for new challenges to take on. 
+            I am currently looking for a full-time position in the field of software development, but I am open to any opportunities that come my way. 
+            If you would like to learn more about me, please feel free to reach out to me through my socials at the top of the page.
+        </p>
+    </div>
+
+    <script src="JavaScript/script.js"></script>
+</body>
+    <!-- <div style="display: flex; justify-content: center; align-items: center;">
         <h1>The Portfolio of Noah Seilo</h1>
     </div>
 
@@ -142,7 +151,17 @@
         <div class="games">
             <h2>Games</h2>
             <div class="project" style="padding: 15px;">
-                <!-- <img src="images/Legend-of-Zelda-1.png" alt="Legend of Zelda Screenshot"> -->
+                <img src="images/Legend-of-Zelda-1.png" alt="Legend of Zelda Screenshot">
+                <p style="justify-self: center;">
+                    <a href="https://loopmagician.itch.io/the-legend-of-zelda-unity-rendition">Color Bound (demo) <b>CLICK TO PLAY</b></a>
+                </p>
+                <p><b>DEMO GAME FOR FREELANCERS</b></p>
+                <p>
+                    Color Bound is a 3D co-op puzzle platformer. The game is currently in development and is being made with Unity 6.
+                </p>
+            </div>
+            <div class="project" style="padding: 15px;">
+                <img src="images/Legend-of-Zelda-1.png" alt="Legend of Zelda Screenshot">
                 <p style="justify-self: center;">
                     <a href="https://loopmagician.itch.io/the-legend-of-zelda-unity-rendition">The Legend of Zelda (Unity Remaster) <b>CLICK TO PLAY</b></a>
                 </p>
@@ -195,7 +214,7 @@
 
         </div>
 
-    </div>
+    </div> -->
 </body>
 
 </html>

@@ -26,45 +26,64 @@ img {
 
 /* Nav bar */
 .navbar {
-    background: #ffffff;
-    padding: 20px;
-    color: #fff;
+  background-color: #222;
+  padding: 1rem 2rem;
 }
 
-.navbar a {
-    color: #0004ff;
-    text-decoration: none;
+.nav-menu {
+  list-style: none;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin: 0;
+  padding: 0;
 }
 
-.navbar .container{
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  padding: 0.5rem 1rem;
+  transition: color 0.3s;
+}
+
+.home-link:hover {
+  color: #ff4a4a; 
+}
+
+.exp-link:hover {
+  color: #009f3d;
+}
+
+.edu-link:hover {
+  color: #1400c8;
+}
+
+.games-link:hover {
+  color: #a6cd27;
+}
+/* End nav bar */
+
+/* page headers */
+.name {
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 3rem;
+    cursor: pointer;
+    user-select: none;
+    margin-top: 2rem;
+    border: #222 solid 2px;
+    background-color: bisque;
 }
 
-.navbar .main-menu ul {
-    display: flex;
-}
-
-.navbar ul li a {
-    padding: 10px 20px;
-    display: block;
-    font-weight: 600;
-    transition: 0.5s;
-}
-
-/* Utility classes */
-.container {
-    max-width: 1100px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
-
-.container-sm {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 0 15px;
-}
+.name span {
+    display: inline-block;
+    transition: transform 0.6s ease, opacity 0.6s ease, color 0.6s ease;
+    will-change: transform, color;
+    color: #222; /* default text color */
+  }
+/* end page headers */
 
 .projects {
     align-items: center;
