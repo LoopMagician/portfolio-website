@@ -1,0 +1,21 @@
+.security {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.security h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+    text-align: center;
+}
+
+.company-logo {
+  float: right;
+  width: 20%;           /* adjust as needed */
+  margin-left: 1rem;
+  margin-bottom: 1rem;
+  border-radius: 8px;
+  border-color: blue;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
