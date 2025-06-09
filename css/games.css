@@ -1,0 +1,33 @@
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.game {
+    background-color: #e2d2ff;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 255, 30, 0.1);
+    display: inline-block;
+    align-items: center;
+    padding: 20px 20px;
+    text-align: left;
+}
+
+.game-image {
+    width: 70%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.game-description {
+    font-size: 16px;
+    color: #333;
+    margin-top: 10px;
+    padding: 10px 10px;
+    background-color: rgb(181, 181, 247);
+    border-radius: 5px;
+}

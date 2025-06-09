@@ -27,25 +27,93 @@
         <h1 class="name" id="name-title">
             <span>G</span><span>a</span><span>m</span><span>e</span><span>s</span>
         </h1>
+    </div>
 
-        <h2>
-            Asteroid Defense
-        </h2>
-        <p>
-            Asteroid Defense is a game I created in my Game Development class at the University of Michigan. 
-            It is a 2D space shooter where you control a spaceship and defend against waves of asteroids.
-            The game was built using Unity and C#.
-        </p>
+    <div class="games">
+        <div class="game">
+            <h2 style="text-align: center;">
+                Asteroid Defense
+            </h2>
+            <div class="game-description">
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Asteroid Defense is a 2D space shooter I created in Unity. It was built over a two-week sprint where 
+                I handled every part of the development process myself.
+            </p>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;To start, I designed the environment, including the city object at the bottom of the screen. I created 
+                an asteroid prefab with a movement script that not only controlled its descent but also handled destroying 
+                the asteroid when clicked. This was tied to a spawner script that generated asteroids at random intervals, 
+                gradually increasing both their speed and spawn rate to ramp up the difficulty.
+            </p>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;One of my favorite design challenges was figuring out how to represent the city's health. Instead of a 
+                traditional health bar, I decided to have the city physically crumble — moving it downward on each hit. 
+                After the final hit, the city continues to fall off-screen before triggering the game over screen.
+            </p>
+            <p>
+                &nbsp;&nbsp;&nbsp;&nbsp;Once the core gameplay loop was complete, I added UI elements like a start menu, score display, and game over 
+                screen. From there, I focused on polishing the experience with explosion effects, sound effects, background 
+                music, and a crosshair for the player.
+            </p>
+            <p>
+                This was a fun project to work on and a great learning experience. Hope you enjoy playing it!
+            </p>
+            </div>
+            <p style="text-align: center;"><img src="images/Asteroid-defense.png" alt="Asteroid Defense Screenshot" class="game-image"></p>
+            <p style="text-align: center;"><a href="https://loopmagician.itch.io/asteroid-defense" target="_blank" class="game-link">Play Asteroid Defense on Itch.io</a></p>
 
-        <h2>
-            Color Bound
-        </h2>
-        <p>
-            Color Bound is a game I created in my Game Development class at the University of Michigan. 
-            It is a 2D puzzle game where you control a character that can only move on tiles of the same color.
-            The game was built using Unity and C#.
-        </p>
-        
+        </div>
+        <div class="game">
+            <h2 style="text-align: center;">
+                Color Bound
+            </h2>
+            <div class="game-description">
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;Color Bound is a game created by myself and three other classmates in my Game Development class at the University of Michigan. 
+                    It was developed in Unity over the course of six weeks with structured milestones in which we decided which elements
+                    of the game to implement, fix, or polish.
+                </p>
+                <p>
+                    &nbsp;&nbsp;&nbsp;&nbsp;The game is a 3D co-op puzzle platformer where players must navigate each level using colored abilities
+                    to solve the puzzles. Colors are central to the game's theme, with each color representing a different ability. The colors are also
+                    used in platforming elements as players must use their colors to open doors, walk over colored bridges, and more.
+                </p>
+                <p>
+                    I had many different roles in the game's development, including the following:
+                    <ul>
+                        <li style="padding-left: 40px;"><b>Level Design:</b> Levels 4, 5, and 6 were Designed by me. Level design was a somewhat challenging task, but as I found
+                            ways to use the mechanics in unique ways, the latter levels became easier, and more fun, to design. I also was resposible for the styling
+                            of the levels, including texturing, lighting, background, music, sound effects, etc. This was the bulk of my responsibility in the project.
+                        </li>
+                        <li style="padding-left: 40px;"><b>Character:</b> I used a free unity asset to create the character model. With this, I set up movement scripts, animations, color
+                            changes, abilities, and sound effects. 
+                        </li>
+                        <li style="padding-left: 40px;"><b>Game Trailer:</b> Part of the game development process was to create a trailer for the game as marketing is an important
+                            aspect to game development. I didn't have any experience with video editing, but I was able to figure out how to utilize DaVinci Resolve, a video editing software,
+                            to put together a trailer that showcased the game and its mechanics. The most challenging part was understanding how to use the Cinematic Virtual Camera in Unity to 
+                            capture in game footage. I had to learn how to use the camera, set up the shots using movement scripts and camera tracks, and then export the footage to DaVinci Resolve.
+                            This was challenging, but it was cool to learn how to use the video editing software and I really think the trailer turned out well.
+                        </li>
+                        <li style="padding-left: 40px;"><b>Misc scripting:</b> Development included a lot of scripting and fixing elements of the game. To name a few I worked on the following:
+                            <ul>
+                                <li>Ground check system for safe respawning (player and object)</li>
+                                <li>Victory animations and particle effects in level completion zone</li>
+                                <li>Moveable platforms</li>
+                                <li>UV scrolling</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </p>
+                <p>
+                    Overall, this was a great project to work on and I learned a lot about game development. I am very proud of the final product and I hope you get a chance to playing it!
+                </p>
+                <p style="text-align: center;">
+                    <b>DISCLAIMER:</b> The game requires two players and controllers to play.
+                </p>
+            </div>
+            <p style="text-align: center;"><iframe width="560" height="315" src="https://www.youtube.com/embed/pIZTD8gVTCI?si=dBYxtgf4pWbMIw39" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></p>
+            <p style="text-align: center;"><a href="https://loopmagician.itch.io/colorbound" target="_blank" class="game-link">Download Color Bound from Itch.io</a></p>
+        </div>
     </div>
 
     <script src="JavaScript/script.js"></script>
